@@ -1,0 +1,168 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li{
+    list-style:none;
+    display:inline-block; 
+    margin-right: 40px;
+    margin-bottom: 0px;
+    line-height: 20px;
+    }
+
+    a{
+        text-decoration: none;
+        color:black;
+        margin-right: 0px;
+    }
+    a:hover {
+        color:#fc5a35; 
+      }
+
+/* header start */
+
+.fixed-header {
+    position: fixed;
+  }
+
+.Nav{
+    width:100%;
+    height:90px;
+    line-height:60px;
+    background-color:#ffffff;
+    font-size:20px;
+    font-family:"Helvetica";
+}
+
+.Nav .wrap{
+    width:1500px;
+    margin: 0 auto;
+}
+
+.Nav .wrap .nav-right{
+    float:right
+}
+
+.Nav .wrap .nav-left{
+    float:left;
+    margin-top:30px;
+}
+
+.Nav .wrap .nav-right li{
+    float:right;
+    margin-top:15
+}
+
+.Nav .wrap .nav-left li{
+    float:left
+}
+
+
+.Nav .wrap .nav-left span{
+    color:#fc5a35;
+    font-size:30px;
+    font-weight:500;
+    
+
+}
+
+.hr1 {
+    width: 100%;
+    height: 3px; 
+    background-color: #fc5a35; 
+    border: none; 
+    margin: 0; 
+    margin-bottom: 4px;
+    padding:0;
+  }
+
+  .hr2 {
+    width: 100%;
+    height: 1px; 
+    background-color: #fc5a35; 
+    border: none; 
+    margin: 0; 
+    margin-bottom: 4px;
+    padding:0;
+  }
+
+  .hr3 {
+    width: 100%;
+    height: 1px; 
+    background-color: #fc5a35; 
+    border: none; 
+    margin: 0; 
+    margin-bottom: 4px;
+    padding:0;
+  }
+
+  .search-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+  }
+
+
+  input[type="search"] {
+    width: 90%;
+    padding: 6px 30px 6px 20px;
+    border: 1.5px solid #fc5a35;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    background-color:#fc5a35;
+  }
+/* header end */
+
+/* body start*/
+
+.titleimage{
+    width: 100%;
+    height:800px;
+    background-image:url("cover.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.mainpagetitle{
+    font-family:Optima, sans-serif;
+    font-weight:900;    
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    background-color:rgba(252,90,53,0.5);
+    padding: 75px 300px 0px 25px;
+    font-size: 72px;
+    font-stretch: ultra-expanded;
+   
+}
+
+/* body end*/
+
+
+/*footer start*/
+
+.footer-service{
+    width:100%;
+    height:60px;
+    line-height:60px;
+    background-color:#ffffff;
+    font-size:10px;
+    font-family:"Helvetica";
+}
+
+
+/*footer end*/
